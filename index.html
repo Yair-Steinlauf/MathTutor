@@ -152,10 +152,20 @@
             <div class="row g-0 align-items-center">
 
               <!-- Price Display -->
-              <div class="col-md-5 pricing-unified-price-box">
-                <div class="pricing-price" data-i18n="pricing.unified_price">₪150</div>
-                <div class="pricing-period" data-i18n="pricing.per_lesson">לשיעור אקדמי (45 דקות)</div>
-                <a href="#booking" class="pricing-cta mt-4" data-i18n="pricing.cta">לקביעת שיעור</a>
+              <div
+                class="col-md-5 pricing-unified-price-box d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex w-100 mb-4 justify-content-center">
+                  <div class="text-center px-3"
+                    style="border-left: 1px solid rgba(255,255,255,0.1); border-right: none;">
+                    <div class="pricing-price" data-i18n="pricing.price_45" style="font-size: 3rem;">₪120</div>
+                    <div class="pricing-period mb-0" data-i18n="pricing.per_lesson_45">ל-45 דקות</div>
+                  </div>
+                  <div class="text-center px-3">
+                    <div class="pricing-price" data-i18n="pricing.price_60" style="font-size: 3rem;">₪150</div>
+                    <div class="pricing-period mb-0" data-i18n="pricing.per_lesson_60">לשעה שלימה</div>
+                  </div>
+                </div>
+                <a href="#booking" class="pricing-cta" data-i18n="pricing.cta">לקביעת שיעור</a>
               </div>
 
               <!-- Details & Formats -->
